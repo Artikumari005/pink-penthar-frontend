@@ -2,7 +2,7 @@ import { PipelineToolbar } from './toolbar';
 import { PipelineUI } from './ui';
 import { useStore } from './store';
 import { formatDate, formatRelativeTime } from './utils/time';
-import savePipelines from "./savePipelines";
+
 import {
   PantherIcon,
   HomeIcon,
@@ -169,7 +169,7 @@ function App() {
                   ))}
                 </div>
               )}
-              <savePipelines/>
+              
             </div>
             
           </aside>
